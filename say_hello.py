@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Write a function say_hello that adds the string "Hello, " at the beginning and "!" at the end of any given input.
-# The function should also correctly handle cases where the input is empty or contains only whitespace, returning "Hello, World!" in such cases. Additionally,
-# the function should be able to handle inputs that are not strings, converting them to strings before adding the greeting.
-
 def say_hello(name):
     if not isinstance(name, str):
         name = str(name)
