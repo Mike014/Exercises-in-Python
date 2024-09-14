@@ -48,6 +48,14 @@ This repository contains a series of Python programming exercises designed to im
     - **Main Functions:**
         - `process_argument(*args, **kwargs)`: Converts positional and keyword arguments to strings and returns them.
 
+9. **9.	namespace.py**
+    - **Description:** This script demonstrates the use of namespaces in Python. It includes examples of global, local, and built-in namespaces, and shows how to access and modify them.
+    - **Main Functions:**
+        - `my_function()`: Demonstrates accessing and modifying a global variable.
+        - `my_function_with_locals()`: Displays the local namespace inside a function.
+        - `modify_global()`: Modifies a global variable.
+        - `my_function_with_locals_modification()`: Attempts to modify the local namespace using locals().
+
 ## Requirements
 
 - Python 3.x
