@@ -1,4 +1,5 @@
 # Python Programming Exercises
+# Python Programming Exercises
 
 This repository contains a series of Python programming exercises designed to improve both basic and advanced programming skills. The exercises cover various topics, including string manipulation, function usage, and handling positive and negative numbers.
 
@@ -42,6 +43,11 @@ This repository contains a series of Python programming exercises designed to im
         - `loop_numbers()`: Populates the `list_positive_numbers` and `list_negative_numbers` lists with positive and negative numbers, respectively.
         - `printumbers()`: Prints the even positive and negative numbers from the lists.
 
+8. **process_argument.py**
+    - **Description:** This script contains a function `process_argument` that processes positional and keyword arguments, converting them to strings and returning them as a tuple of a list and a dictionary.
+    - **Main Functions:**
+        - `process_argument(*args, **kwargs)`: Converts positional and keyword arguments to strings and returns them.
+
 ## Requirements
 
 - Python 3.x
@@ -54,3 +60,4 @@ Contributions are welcome! Feel free to open issues or pull requests to improve 
 ## License
 
 NO License
+
